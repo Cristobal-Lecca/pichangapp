@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/pichangapp/static/css/main.cc84d3af.css",
+    "main.js": "/pichangapp/static/js/main.08c791d5.js",
+    "static/js/787.9239aff2.chunk.js": "/pichangapp/static/js/787.9239aff2.chunk.js",
+    "static/media/cancha1.png": "/pichangapp/static/media/cancha1.06abbafbc5a9c34374e1.png",
+    "static/media/cancha2.png": "/pichangapp/static/media/cancha2.540ab6799662a28763a5.png",
+    "static/media/cancha3.png": "/pichangapp/static/media/cancha3.29d88cda0f8870527f15.png",
+    "static/media/logo.png": "/pichangapp/static/media/logo.c09ebaf6b80994645a8b.png",
+    "index.html": "/pichangapp/index.html",
+    "main.cc84d3af.css.map": "/pichangapp/static/css/main.cc84d3af.css.map",
+    "main.08c791d5.js.map": "/pichangapp/static/js/main.08c791d5.js.map",
+    "787.9239aff2.chunk.js.map": "/pichangapp/static/js/787.9239aff2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc84d3af.css",
+    "static/js/main.08c791d5.js"
+  ]
+}
