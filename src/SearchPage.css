@@ -1,0 +1,130 @@
+.searchPage {
+    padding: 20px;
+}
+
+.searchPage__info > p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.searchPage__info > h1 {
+    margin-bottom: 30px;
+}
+
+.searchPage__info > button {
+    background-color: white;
+    border-radius: 30px;
+    height: 30px;
+    border-width: 0.5px;
+    margin: 5px;
+}
+
+
+.image-description {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-description img {
+    width: 50%;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 1rem;
+  }
+  
+  .description {
+    width: 50%;
+  }
+  
+  .description h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #222;
+  }
+  
+  .description p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .description .rdt {
+    margin-top: 1rem;
+  }
+  
+  .rdtPicker {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rdtPicker table {
+    width: 100%;
+  }
+  
+  .rdtPicker th {
+    font-weight: 700;
+    padding: 0.5rem;
+    text-align: center;
+    color: #444;
+  }
+  
+  .rdtPicker th.rdtSwitch {
+    padding: 0.3rem;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .rdtPicker td {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  .rdtPicker td.rdtOld,
+  .rdtPicker td.rdtNew {
+    color: #999;
+  }
+  
+  .rdtPicker td.rdtToday {
+    font-weight: 700;
+  }
+  
+  .rdtPicker td.rdtActive,
+  .rdtPicker td.rdtActive:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: none;
+  }
+
+  
+  .my-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .my-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

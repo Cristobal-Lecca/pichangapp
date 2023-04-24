@@ -1,0 +1,51 @@
+.banner {
+  height: 45vh;
+  position: relative;
+  background: url("https://thumbs.dreamstime.com/z/fondo-de-la-plantilla-banner-football-193963144.jpg") center center;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton {
+  color: #ff7779 !important;
+  background-color: white !important;
+  font-weight: 900 !important;
+  height: 30px;
+  border-radius: 3px;
+  border-width: thin;
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  padding-top: 25vh;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+
+/* affects the button only */
+.banner__info > button {
+  background-color: hsl(359, 100%, 73%);
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+  width: 140px;
+  height: 30px;
+  border-radius: 5px;
+  border-width: thin;
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}

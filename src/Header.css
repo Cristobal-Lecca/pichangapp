@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/* this position, top, and z-index allows the header to stay on screen when scrolling down */
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+}
+
+.header__icon {
+    object-fit: contain;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.header__center {
+    display: flex;
+    flex: 1;
+    align-items: center;
+/* max-width center aligned the search bar */
+    max-width: fit-content;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 1000px;
+}
+
+/* this affects the main search bar input field */
+.header__center > input {
+    border: none;
+    /* width: 250px; */
+    padding: 10px;
+/* outline-width deletes the blue outline of search bar input field */
+    outline-width: 0;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
+}

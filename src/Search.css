@@ -1,0 +1,50 @@
+.search {
+    position: absolute;
+    top: 30px;
+    left: 35%;
+    width: 100vw;
+}
+
+.search > h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 559px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 340px;
+}
+
+.search > button {
+    position: absolute;
+    left: 0;
+    top: 440px;
+    background-color: #ff7779;
+    color: white;
+    width: 579px;
+    border-radius: 3px;
+    font-weight: 900;
+    height: 35px;
+}
+
+.search > button:hover {
+    background-color: white;
+    color: #ff7779;
+}
+
+.search > input {
+    width: 539px;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    height: 30px;
+    top: 380px;
+    border: none;
+}
+
+/* Removes input outline */
+.search > input:focus {
+    outline-width: 0;
+}
