@@ -7,11 +7,15 @@ import "./Header.css";
 import { Link } from 'react-router-dom';
 import logo from './logo.png'
 
+const redirectToCalendar = () => {
+  window.location.href = '/calendar.js';
+};
 
 function Header() {
   return <>
 
     <div className="header">
+
       <Link to='/'>
         <img
           className="header__icon"
@@ -19,18 +23,21 @@ function Header() {
           alt=""
         />
       </Link>
-      
+      <Link to="/calendar">CALENDARIO</Link>
 
       {/* 
       <div className="header__center">
         <input type="text" />
         
       </div>
+      
+      
       <div className="header__right">
-        <p>Become a host</p>
-        
+        <p>Horarios de Reserva</p>
       </div>
-    */}
+      */ }
+      
+      
 
     </div>
 
