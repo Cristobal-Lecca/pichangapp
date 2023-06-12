@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/pichangapp/static/css/main.900d41c9.css",
-    "main.js": "/pichangapp/static/js/main.a91c87e5.js",
+    "main.css": "/pichangapp/static/css/main.92ddda62.css",
+    "main.js": "/pichangapp/static/js/main.1bf1ae9f.js",
     "static/js/787.9239aff2.chunk.js": "/pichangapp/static/js/787.9239aff2.chunk.js",
     "static/media/cancha1.png": "/pichangapp/static/media/cancha1.06abbafbc5a9c34374e1.png",
     "static/media/cancha2.png": "/pichangapp/static/media/cancha2.540ab6799662a28763a5.png",
     "static/media/cancha3.png": "/pichangapp/static/media/cancha3.29d88cda0f8870527f15.png",
-    "static/media/yape.png": "/pichangapp/static/media/yape.ed7626946e0559143fd9.png",
+    "static/media/yape.png": "/pichangapp/static/media/yape.9db43185ba41308fb1fb.png",
     "static/media/logo.png": "/pichangapp/static/media/logo.c09ebaf6b80994645a8b.png",
     "index.html": "/pichangapp/index.html",
-    "main.900d41c9.css.map": "/pichangapp/static/css/main.900d41c9.css.map",
-    "main.a91c87e5.js.map": "/pichangapp/static/js/main.a91c87e5.js.map",
+    "main.92ddda62.css.map": "/pichangapp/static/css/main.92ddda62.css.map",
+    "main.1bf1ae9f.js.map": "/pichangapp/static/js/main.1bf1ae9f.js.map",
     "787.9239aff2.chunk.js.map": "/pichangapp/static/js/787.9239aff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.900d41c9.css",
-    "static/js/main.a91c87e5.js"
+    "static/css/main.92ddda62.css",
+    "static/js/main.1bf1ae9f.js"
   ]
 }
